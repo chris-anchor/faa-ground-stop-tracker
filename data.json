@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14 16:00 UTC",
+  "generatedAt": "2026-11-14 16:12 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,18 +25,25 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-10-28T19:30:18Z",
+    "updated": "2026-11-08T19:15:11Z",
     "groundStops": [],
-    "airportClosures": [],
+    "airportClosures": [
+      {
+        "airport": "SUA",
+        "reason": "except AIRSHOW ACFT",
+        "start": "2026-11-14T16:00:00Z",
+        "reopen": "2026-11-14T22:30:00Z"
+      }
+    ],
     "groundDelays": [],
-    "itemCount": 3
+    "itemCount": 4
   },
   "flightaware": {
-    "updated": "2026-11-14T15:52:33Z",
-    "delays_today": 12449,
-    "delays_us": 2785,
-    "cancellations_today": 4552,
-    "cancellations_us": 4062,
+    "updated": "2026-11-14T16:12:50Z",
+    "delays_today": 12795,
+    "delays_us": 3019,
+    "cancellations_today": 4613,
+    "cancellations_us": 4113,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
