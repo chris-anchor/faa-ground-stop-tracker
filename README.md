@@ -6,7 +6,7 @@ A public, free dashboard tracking the 13–14 November 2026 FAA nationwide groun
 
 After enabling GitHub Pages:
 
-`https://<your-username>.github.io/faa-ground-stop-tracker/`
+`https://chris-anchor.github.io/faa-ground-stop-tracker/`
 
 ## What it shows
 
