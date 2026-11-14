@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14 02:52 UTC",
+  "generatedAt": "2026-11-14 03:00 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -30,12 +30,6 @@
     "airportClosures": [],
     "groundDelays": [
       {
-        "airport": "BOS",
-        "reason": "airport volume",
-        "average": 26.0,
-        "max": 103
-      },
-      {
         "airport": "LGA",
         "reason": "wind",
         "average": 45.0,
@@ -54,6 +48,6 @@
         "max": 690
       }
     ],
-    "itemCount": 9
+    "itemCount": 8
   }
 }
