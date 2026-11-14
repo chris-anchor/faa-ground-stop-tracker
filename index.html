@@ -160,7 +160,7 @@
     <div>
       <h1>FAA Ground Stop Tracker</h1>
       <div class="sub">Research dashboard · U.S. air traffic communications failure · 13–14 November 2026</div>
-      <div class="updated">Last updated: <strong id="lastUpdated">2026-11-14 01:06 UTC</strong> · Auto-refresh: <strong>every 6 minutes</strong></div>
+      <div class="updated">Last updated: <strong id="lastUpdated">2026-11-14 01:12 UTC</strong> · Auto-refresh: <strong>every 6 minutes</strong></div>
       <div class="auto"><span class="pulse"></span><span id="refreshCountdown">Auto-refresh in 6:00</span></div>
     </div>
     <div>
@@ -205,7 +205,7 @@
         <div class="metric-tile"><span class="label">Fuel emergencies</span><span class="value">0</span><span class="sub">reported</span></div>
         <div class="metric-tile"><span class="label">Ground stop</span><span class="value sm" id="usGroundStop">Active</span><span class="sub">until 04:30 UTC</span></div>
       </div>
-      <div class="key-risk"><strong>Key risk:</strong> DCA and FLL closed to diversions; BDL closed; BOS/LGA/SAN/SFO ground delays; 1,400–4,000 cancellations reported.</div>
+      <div class="key-risk"><strong>Key risk:</strong> DCA/FLL/BDL closures have lifted; BOS/LGA/SAN/SFO ground delays remain; 1,400–4,000 cancellations reported.</div>
       <div class="sat-footer">
         <span class="badge b-warning" id="usStatus">WARNING</span>
         <div class="sat-risk">
@@ -264,10 +264,7 @@
           <tr><th>Airport</th><th>Status</th><th>Key constraint</th><th>Current signal</th></tr>
         </thead>
         <tbody>
-          <tr><td><strong>DCA</strong><div class="muted">Washington National</div></td><td><span class="badge b-critical">CLOSED</span></td><td>Closed to diversion aircraft</td><td>FAA NAS status</td></tr>
-          <tr><td><strong>FLL</strong><div class="muted">Fort Lauderdale</div></td><td><span class="badge b-critical">CLOSED</span></td><td>Closed to diversion aircraft due to capacity</td><td>FAA NAS status</td></tr>
-          <tr><td><strong>BDL</strong><div class="muted">Hartford</div></td><td><span class="badge b-critical">CLOSED</span></td><td>Airport closure</td><td>FAA NAS status</td></tr>
-          <tr><td><strong>BOS / LGA / SAN / SFO</strong><div class="muted">Mainland</div></td><td><span class="badge b-warning">DELAYS</span></td><td>26 / 45 / 34 / 138 minutes</td><td>Airport volume and wind</td></tr>
+          <tr><td><strong>BOS / LGA / SAN / SFO</strong><div class="muted">Mainland</div></td><td><span class="badge b-warning">DELAYS</span></td><td>26 / 45 / 34 / 138 min average</td><td>Airport volume and wind; SFO max 690 min</td></tr>
           <tr><td><strong>KOA</strong><div class="muted">Kona</div></td><td><span class="badge b-watch">WATCH</span></td><td>1 runway; no second runway; rehab into 2027</td><td>Exempt; 22 delays; DOT monitoring capacity; no saturation report</td></tr>
           <tr><td><strong>HNL</strong><div class="muted">Honolulu</div></td><td><span class="badge b-watch">WATCH</span></td><td>4 runways; most gates; relief valve</td><td>Exempt from ground stop; 85 delays / 9 cancels; West Coast–HI flights halted by SpaceX debris</td></tr>
           <tr><td><strong>OGG</strong><div class="muted">Kahului</div></td><td><span class="badge b-watch">WATCH</span></td><td>2 runways; limited gates; tight ramp</td><td>Exempt; 42 delays; no saturation report</td></tr>
@@ -276,6 +273,9 @@
           <tr><td><strong>JNU</strong><div class="muted">Juneau</div></td><td><span class="badge b-watch">WATCH</span></td><td>1 runway; terrain; limited gates</td><td>Delays reported; no saturation report</td></tr>
           <tr><td><strong>ITO</strong><div class="muted">Hilo</div></td><td><span class="badge b-watch">WATCH</span></td><td>Larger runway; limited gates</td><td>Relief option for KOA</td></tr>
           <tr><td><strong>LIH</strong><div class="muted">Lihue</div></td><td><span class="badge b-watch">WATCH</span></td><td>1 runway; limited gates</td><td>Exempt; 22 delays; alternate</td></tr>
+          <tr><td><strong>DCA</strong><div class="muted">Washington National</div></td><td><span class="badge b-normal">CLEARED</span></td><td>Closure lifted per FAA NAS summary</td><td>No active closure listed</td></tr>
+          <tr><td><strong>FLL</strong><div class="muted">Fort Lauderdale</div></td><td><span class="badge b-normal">CLEARED</span></td><td>Closure lifted per FAA NAS summary</td><td>No active closure listed</td></tr>
+          <tr><td><strong>BDL</strong><div class="muted">Hartford</div></td><td><span class="badge b-normal">CLEARED</span></td><td>Closure lifted per FAA NAS summary</td><td>No active closure listed</td></tr>
         </tbody>
       </table>
     </div>
@@ -312,6 +312,10 @@
         <div class="item warn">
           <div class="time">14 NOV · 01:06 UTC</div>
           <p>CNN: faulty network routers, starting at Chicago Midway, cascaded nationwide. FlightAware: 10,343 delays / 1,479 cancellations (Guardian); ABC/GMA report 4,000+ cancellations. Root cause still unconfirmed.</p>
+        </div>
+        <div class="item">
+          <div class="time">14 NOV · 01:12 UTC</div>
+          <p>FAA NAS summary still shows national ground stop ALL / EQUIPMENT / OUTAGE, but DCA, FLL, and BDL no longer appear in the active airport-closure table. BOS/LGA/SAN/SFO ground delays remain.</p>
         </div>
       </div>
     </div>
