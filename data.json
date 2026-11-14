@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14 07:52 UTC",
+  "generatedAt": "2026-11-14 08:00 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -35,14 +35,7 @@
         "reopen": "2026-11-14T11:00:00Z"
       }
     ],
-    "groundDelays": [
-      {
-        "airport": "SFO",
-        "reason": "wind",
-        "average": 138.0,
-        "max": 690
-      }
-    ],
-    "itemCount": 8
+    "groundDelays": [],
+    "itemCount": 7
   }
 }
