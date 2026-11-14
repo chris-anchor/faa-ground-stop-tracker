@@ -42,6 +42,8 @@
     font-weight: 700; font-size: 12px; letter-spacing: .08em; text-transform: uppercase;
   }
   .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--critical); box-shadow: 0 0 14px var(--critical); }
+  .dot.lifted { background: var(--normal); box-shadow: 0 0 14px var(--normal); }
+  .ribbon.lifted { border-color: rgba(46,204,113,.45); background: rgba(46,204,113,.10); color: #a7f3c0; }
   .updated { color: var(--muted); font-size: 13px; margin-top: 8px; }
   .auto {
     display: inline-flex; align-items: center; gap: 7px;
@@ -164,7 +166,7 @@
       <div class="auto"><span class="pulse"></span><span id="refreshCountdown">Auto-refresh in 6:00</span></div>
     </div>
     <div>
-      <div class="ribbon"><span class="dot"></span> Ground stop active · root cause unconfirmed</div>
+      <div class="ribbon lifted"><span class="dot lifted"></span> Ground stop lifted · root cause unconfirmed</div>
     </div>
   </header>
 
