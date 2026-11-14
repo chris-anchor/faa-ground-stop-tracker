@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14 10:52 UTC",
+  "generatedAt": "2026-11-14 10:59 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -29,12 +29,6 @@
     "groundStops": [],
     "airportClosures": [
       {
-        "airport": "PNS",
-        "reason": "except HEL OPS",
-        "start": "2026-11-14T06:00:00Z",
-        "reopen": "2026-11-14T11:00:00Z"
-      },
-      {
         "airport": "SNA",
         "reason": "Airport closure",
         "start": "2026-11-14T08:00:00Z",
@@ -42,6 +36,6 @@
       }
     ],
     "groundDelays": [],
-    "itemCount": 7
+    "itemCount": 5
   }
 }
