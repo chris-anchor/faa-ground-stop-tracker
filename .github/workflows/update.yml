@@ -36,5 +36,6 @@ jobs:
             echo "No data changes."
           else
             git commit -m "Update FAA NAS data"
+            git pull --rebase origin main
             git push
           fi
