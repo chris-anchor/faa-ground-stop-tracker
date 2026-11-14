@@ -5,7 +5,7 @@
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Active",
+    "groundStop": "Lifted",
     "risk": "High"
   },
   "hi": {
@@ -26,14 +26,7 @@
   },
   "nas": {
     "updated": "2026-11-14T00:41:38Z",
-    "groundStops": [
-      {
-        "airport": "ALL",
-        "reason": "NATIONAL STOP",
-        "scope": "ALL",
-        "end": "TBD"
-      }
-    ],
+    "groundStops": [],
     "airportClosures": [],
     "groundDelays": [
       {

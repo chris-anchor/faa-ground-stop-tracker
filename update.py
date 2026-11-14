@@ -107,6 +107,8 @@ def main():
     if nas["groundStops"]:
         us["status"] = "WARNING"
         us["groundStop"] = "Active"
+    else:
+        us["groundStop"] = "Lifted"
     data["us"] = us
 
     DATA_FILE.write_text(json.dumps(data, indent=2) + "\n")
