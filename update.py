@@ -2,11 +2,13 @@
 """Update data.json from the FAA NAS Status public API."""
 
 import json
+import re
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
 FAA_URL = "https://nasstatus.faa.gov/api/airport-events"
+FLIGHTAWARE_URL = "https://www.flightaware.com/live/cancelled/"
 DATA_FILE = Path("data.json")
 
 
@@ -19,8 +21,29 @@ def fetch_events():
     return payload
 
 
-def as_text(value):
-    return str(value).strip() if value is not None else ""
+def fetch_flightaware():
+    req = urllib.request.Request(
+        FLIGHTAWARE_URL,
+        headers={
+            "User-Agent": "Mozilla/5.0 (compatible; faa-ground-stop-tracker/1.0)",
+            "Accept": "text/html",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        html = resp.read().decode("utf-8", errors="replace")
+
+    def count(label):
+        match = re.search(re.escape(label) + r".*?([0-9][0-9,]*)", html, re.S)
+        return int(match.group(1).replace(",", "")) if match else None
+
+    return {
+        "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "delays_today": count("Total delays today:"),
+        "delays_us": count("Total delays within, into, or out of the United States today:"),
+        "cancellations_today": count("Total cancellations today:"),
+        "cancellations_us": count("Total cancellations within, into, or out of the United States today:"),
+        "source_url": FLIGHTAWARE_URL,
+    }
 
 
 def latest_update(items):
@@ -97,11 +120,20 @@ def main():
         })
 
     data = json.loads(DATA_FILE.read_text()) if DATA_FILE.exists() else {}
-    old_nas = json.dumps(data.get("nas", {}), sort_keys=True)
-    new_nas = json.dumps(nas, sort_keys=True)
+    old_snapshot = json.dumps(
+        {"nas": data.get("nas", {}), "flightaware": data.get("flightaware", {})},
+        sort_keys=True,
+    )
+
+    try:
+        flightaware = fetch_flightaware()
+    except Exception as exc:  # noqa: BLE001
+        flightaware = data.get("flightaware", {})
+        print(f"FlightAware fetch failed: {exc}")
 
     data["generatedAt"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     data["nas"] = nas
+    data["flightaware"] = flightaware
 
     us = data.get("us", {})
     if nas["groundStops"]:
@@ -113,10 +145,19 @@ def main():
 
     DATA_FILE.write_text(json.dumps(data, indent=2) + "\n")
 
-    if old_nas == new_nas:
-        print("FAA NAS data unchanged; no commit needed.")
+    new_snapshot = json.dumps(
+        {"nas": nas, "flightaware": flightaware},
+        sort_keys=True,
+    )
+
+    if old_snapshot == new_snapshot:
+        print("FAA NAS and FlightAware data unchanged; no commit needed.")
     else:
-        print(f"Updated FAA NAS data: {len(ground_stops)} ground stop(s), {len(airport_closures)} closure(s), {len(ground_delays)} ground delay(s).")
+        print(
+            f"Updated FAA NAS data: {len(ground_stops)} ground stop(s), "
+            f"{len(airport_closures)} closure(s), {len(ground_delays)} ground delay(s); "
+            f"FlightAware US delays/cancels: {flightaware.get('delays_us')}/{flightaware.get('cancellations_us')}."
+        )
 
 
 if __name__ == "__main__":

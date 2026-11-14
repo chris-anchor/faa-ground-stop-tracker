@@ -203,11 +203,11 @@
       </div>
       <div class="metric-grid">
         <div class="metric-tile"><span class="label">Diversions</span><span class="value">827</span><span class="sub">670 origin · 157 alternate</span></div>
-        <div class="metric-tile"><span class="label">Delays / cancels</span><span class="value sm">6,200 / 3,400</span><span class="sub">CNBC / FlightAware</span></div>
+        <div class="metric-tile"><span class="label">Delays / cancels</span><span class="value sm" id="usDelays">1,432 / 3,548</span><span class="sub" id="usDelaysSub">FlightAware live · US</span></div>
         <div class="metric-tile"><span class="label">Fuel emergencies</span><span class="value">0</span><span class="sub">reported</span></div>
         <div class="metric-tile"><span class="label">Ground stop</span><span class="value sm" id="usGroundStop">Lifted</span><span class="sub">8:00 pm ET</span></div>
       </div>
-      <div class="key-risk"><strong>Key risk:</strong> Ground stop lifted; DCA/FLL/BDL cleared; BOS/LGA/SAN/SFO ground delays cleared; PNS/ASE/SNA routine closures; 3,400 cancellations, 6,200 delays.</div>
+      <div class="key-risk"><strong>Key risk:</strong> Ground stop lifted; DCA/FLL/BDL cleared; BOS/LGA/SAN/SFO ground delays cleared; PNS/ASE/SNA routine closures; FlightAware US 1,432 delays / 3,548 cancellations.</div>
       <div class="sat-footer">
         <span class="badge b-warning" id="usStatus">WARNING</span>
         <div class="sat-risk">
@@ -450,6 +450,19 @@ async function loadData() {
     document.getElementById("nasLive").innerHTML =
       "<strong>" + gs + "</strong> ground stop(s) · <strong>" + ac + "</strong> closure(s) · <strong>" + gd + "</strong> ground delay(s)<br>" +
       '<span class="muted">FAA NAS updated ' + (nas.updated || "unknown") + " · checked " + new Date().toISOString().slice(0, 16).replace("T", " ") + " UTC</span>";
+  }
+  if (data.flightaware && data.flightaware.delays_us != null) {
+    const delays = document.getElementById("usDelays");
+    if (delays) {
+      delays.textContent =
+        data.flightaware.delays_us.toLocaleString() + " / " + data.flightaware.cancellations_us.toLocaleString();
+    }
+    const sub = document.getElementById("usDelaysSub");
+    if (sub) {
+      sub.textContent =
+        "FlightAware live · US · " +
+        (data.flightaware.updated || "just now").slice(0, 16).replace("T", " ");
+    }
   }
 }
 loadData().catch(function (e) {
