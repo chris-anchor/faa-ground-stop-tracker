@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14 01:17 UTC",
+  "generatedAt": "2026-11-14 01:26 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -54,6 +54,6 @@
         "max": 690
       }
     ],
-    "itemCount": 11
+    "itemCount": 9
   }
 }
