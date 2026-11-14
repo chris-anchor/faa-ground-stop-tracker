@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14 14:11 UTC",
+  "generatedAt": "2026-11-14 14:20 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,25 +25,18 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-13T23:32:38Z",
+    "updated": "2026-10-28T19:30:18Z",
     "groundStops": [],
-    "airportClosures": [
-      {
-        "airport": "SNA",
-        "reason": "Airport closure",
-        "start": "2026-11-14T08:00:00Z",
-        "reopen": "2026-11-14T14:15:00Z"
-      }
-    ],
+    "airportClosures": [],
     "groundDelays": [],
-    "itemCount": 4
+    "itemCount": 3
   },
   "flightaware": {
-    "updated": "2026-11-14T14:11:45Z",
-    "delays_today": 10512,
-    "delays_us": 1823,
-    "cancellations_today": 4107,
-    "cancellations_us": 3699,
+    "updated": "2026-11-14T14:20:28Z",
+    "delays_today": 10856,
+    "delays_us": 1991,
+    "cancellations_today": 4146,
+    "cancellations_us": 3732,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
