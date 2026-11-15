@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15 15:11 UTC",
+  "generatedAt": "2026-11-15 15:20 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-13T23:29:10Z",
+    "updated": "2026-11-15T15:12:11Z",
     "groundStops": [],
     "airportClosures": [
       {
@@ -35,15 +35,22 @@
         "reopen": "2026-11-21T14:15:00Z"
       }
     ],
-    "groundDelays": [],
-    "itemCount": 5
+    "groundDelays": [
+      {
+        "airport": "DJT",
+        "reason": "runway maintenance",
+        "average": 92.0,
+        "max": 166
+      }
+    ],
+    "itemCount": 6
   },
   "flightaware": {
-    "updated": "2026-11-15T15:11:32Z",
+    "updated": "2026-11-15T15:20:02Z",
     "delays_today": 12612,
     "delays_us": 2737,
-    "cancellations_today": 1906,
-    "cancellations_us": 1572,
+    "cancellations_today": 1915,
+    "cancellations_us": 1580,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
