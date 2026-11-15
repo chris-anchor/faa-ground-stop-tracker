@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15 02:27 UTC",
+  "generatedAt": "2026-11-15 02:36 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,18 +25,25 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-10-28T19:30:18Z",
+    "updated": "2026-11-15T02:32:54Z",
     "groundStops": [],
-    "airportClosures": [],
+    "airportClosures": [
+      {
+        "airport": "DAL",
+        "reason": "Airport closure",
+        "start": "2026-11-15T02:29:00Z",
+        "reopen": "2026-11-15T12:00:00Z"
+      }
+    ],
     "groundDelays": [],
-    "itemCount": 3
+    "itemCount": 4
   },
   "flightaware": {
-    "updated": "2026-11-15T02:27:47Z",
+    "updated": "2026-11-15T02:36:59Z",
     "delays_today": 20753,
     "delays_us": 8048,
-    "cancellations_today": 7065,
-    "cancellations_us": 6445,
+    "cancellations_today": 7087,
+    "cancellations_us": 6467,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
