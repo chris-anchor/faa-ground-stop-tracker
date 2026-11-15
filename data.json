@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15 10:54 UTC",
+  "generatedAt": "2026-11-15 11:03 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -35,12 +35,6 @@
         "reopen": "2026-11-15T12:00:00Z"
       },
       {
-        "airport": "PNS",
-        "reason": "except HEL OPS",
-        "start": "2026-11-15T06:00:00Z",
-        "reopen": "2026-11-15T11:00:00Z"
-      },
-      {
         "airport": "SAN",
         "reason": "Airport closure",
         "start": "2026-11-15T09:00:00Z",
@@ -54,14 +48,14 @@
       }
     ],
     "groundDelays": [],
-    "itemCount": 6
+    "itemCount": 5
   },
   "flightaware": {
-    "updated": "2026-11-15T10:54:31Z",
-    "delays_today": 8237,
-    "delays_us": 1308,
-    "cancellations_today": 1594,
-    "cancellations_us": 1372,
+    "updated": "2026-11-15T11:03:57Z",
+    "delays_today": 8511,
+    "delays_us": 1340,
+    "cancellations_today": 1599,
+    "cancellations_us": 1376,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
