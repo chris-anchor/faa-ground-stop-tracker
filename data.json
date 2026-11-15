@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15 11:52 UTC",
+  "generatedAt": "2026-11-15 12:00 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,15 +25,9 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-15T02:32:54Z",
+    "updated": "2026-11-13T23:29:10Z",
     "groundStops": [],
     "airportClosures": [
-      {
-        "airport": "DAL",
-        "reason": "Airport closure",
-        "start": "2026-11-15T02:29:00Z",
-        "reopen": "2026-11-15T12:00:00Z"
-      },
       {
         "airport": "SAN",
         "reason": "Airport closure",
@@ -48,7 +42,7 @@
       }
     ],
     "groundDelays": [],
-    "itemCount": 5
+    "itemCount": 4
   },
   "flightaware": {
     "updated": "2026-11-15T11:52:25Z",
