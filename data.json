@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-15 21:00 UTC",
+  "generatedAt": "2026-11-15 21:11 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Lifted",
+    "groundStop": "Active",
     "risk": "High"
   },
   "hi": {
@@ -25,8 +25,15 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-15T20:38:00Z",
-    "groundStops": [],
+    "updated": "2026-11-15T21:04:00Z",
+    "groundStops": [
+      {
+        "airport": "MCO",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-15T22:15:00Z"
+      }
+    ],
     "airportClosures": [
       {
         "airport": "SNA",
@@ -61,14 +68,14 @@
         "max": 341
       }
     ],
-    "itemCount": 11
+    "itemCount": 12
   },
   "flightaware": {
-    "updated": "2026-11-15T20:53:08Z",
-    "delays_today": 19834,
-    "delays_us": 6776,
-    "cancellations_today": 2325,
-    "cancellations_us": 1913,
+    "updated": "2026-11-15T21:11:38Z",
+    "delays_today": 20244,
+    "delays_us": 7007,
+    "cancellations_today": 2331,
+    "cancellations_us": 1918,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
