@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15 19:13 UTC",
+  "generatedAt": "2026-11-15 19:21 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,19 +25,13 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-15T19:14:00Z",
+    "updated": "2026-11-15T19:16:33Z",
     "groundStops": [
       {
         "airport": "DAL",
         "reason": "Ground stop",
         "scope": "ALL",
         "end": "2026-11-15T19:45:00Z"
-      },
-      {
-        "airport": "SFO",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-15T19:30:00Z"
       }
     ],
     "airportClosures": [
@@ -69,9 +63,9 @@
       },
       {
         "airport": "SFO",
-        "reason": "low ceilings",
-        "average": 93.0,
-        "max": 181
+        "reason": "wind",
+        "average": 179.0,
+        "max": 341
       }
     ],
     "itemCount": 16
