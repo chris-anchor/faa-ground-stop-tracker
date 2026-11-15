@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15 08:59 UTC",
+  "generatedAt": "2026-11-15 09:13 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -41,6 +41,12 @@
         "reopen": "2026-11-15T11:00:00Z"
       },
       {
+        "airport": "SAN",
+        "reason": "Airport closure",
+        "start": "2026-11-15T09:00:00Z",
+        "reopen": "2026-11-15T14:00:00Z"
+      },
+      {
         "airport": "SNA",
         "reason": "DLY 0730-1415",
         "start": "2026-11-15T07:30:00Z",
@@ -51,11 +57,11 @@
     "itemCount": 6
   },
   "flightaware": {
-    "updated": "2026-11-15T08:59:27Z",
-    "delays_today": 6590,
-    "delays_us": 1056,
-    "cancellations_today": 1506,
-    "cancellations_us": 1315,
+    "updated": "2026-11-15T09:13:34Z",
+    "delays_today": 6853,
+    "delays_us": 1110,
+    "cancellations_today": 1519,
+    "cancellations_us": 1322,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
