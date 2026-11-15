@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15 22:20 UTC",
+  "generatedAt": "2026-11-15 22:28 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-15T21:29:00Z",
+    "updated": "2026-11-15T22:06:00Z",
     "groundStops": [],
     "airportClosures": [
       {
@@ -33,12 +33,6 @@
         "reason": "DLY 0730-1415",
         "start": "2026-11-15T07:30:00Z",
         "reopen": "2026-11-21T14:15:00Z"
-      },
-      {
-        "airport": "SUA",
-        "reason": "except AIRSHOW ACFT",
-        "start": "2026-11-15T16:00:00Z",
-        "reopen": "2026-11-15T22:30:00Z"
       }
     ],
     "groundDelays": [
@@ -49,26 +43,20 @@
         "max": 183
       },
       {
-        "airport": "SAN",
-        "reason": "airport volume",
-        "average": 32.0,
-        "max": 85
-      },
-      {
         "airport": "SFO",
         "reason": "wind",
         "average": 179.0,
         "max": 341
       }
     ],
-    "itemCount": 11
+    "itemCount": 8
   },
   "flightaware": {
-    "updated": "2026-11-15T22:20:47Z",
+    "updated": "2026-11-15T22:28:25Z",
     "delays_today": 21620,
     "delays_us": 7889,
-    "cancellations_today": 2381,
-    "cancellations_us": 1954,
+    "cancellations_today": 2383,
+    "cancellations_us": 1956,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
