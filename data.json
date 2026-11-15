@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15 19:06 UTC",
+  "generatedAt": "2026-11-15 19:13 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,14 +25,8 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-15T18:57:00Z",
+    "updated": "2026-11-15T19:14:00Z",
     "groundStops": [
-      {
-        "airport": "AUS",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-15T19:15:00Z"
-      },
       {
         "airport": "DAL",
         "reason": "Ground stop",
@@ -62,6 +56,12 @@
     ],
     "groundDelays": [
       {
+        "airport": "AUS",
+        "reason": "runway construction",
+        "average": 65.0,
+        "max": 183
+      },
+      {
         "airport": "SAN",
         "reason": "airport volume",
         "average": 32.0,
@@ -77,11 +77,11 @@
     "itemCount": 16
   },
   "flightaware": {
-    "updated": "2026-11-15T19:06:03Z",
+    "updated": "2026-11-15T19:13:36Z",
     "delays_today": 17670,
     "delays_us": 5522,
-    "cancellations_today": 2247,
-    "cancellations_us": 1847,
+    "cancellations_today": 2248,
+    "cancellations_us": 1848,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
