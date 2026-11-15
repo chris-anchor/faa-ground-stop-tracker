@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15 19:21 UTC",
+  "generatedAt": "2026-11-15 19:29 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-15T19:16:33Z",
+    "updated": "2026-11-15T19:22:00Z",
     "groundStops": [
       {
         "airport": "DAL",
@@ -68,14 +68,14 @@
         "max": 341
       }
     ],
-    "itemCount": 16
+    "itemCount": 14
   },
   "flightaware": {
-    "updated": "2026-11-15T19:13:36Z",
-    "delays_today": 17670,
-    "delays_us": 5522,
-    "cancellations_today": 2248,
-    "cancellations_us": 1848,
+    "updated": "2026-11-15T19:29:14Z",
+    "delays_today": 18174,
+    "delays_us": 5791,
+    "cancellations_today": 2251,
+    "cancellations_us": 1851,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
