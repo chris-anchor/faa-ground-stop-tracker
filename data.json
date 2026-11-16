@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16 20:24 UTC",
+  "generatedAt": "2026-11-16 20:32 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,13 +25,13 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-16T19:36:19Z",
+    "updated": "2026-11-16T20:30:51Z",
     "groundStops": [
       {
         "airport": "TEB",
         "reason": "Ground stop",
         "scope": "ALL",
-        "end": "2026-11-16T20:45:00Z"
+        "end": "2026-11-16T21:45:00Z"
       }
     ],
     "airportClosures": [
