@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16 20:48 UTC",
+  "generatedAt": "2026-11-16 20:56 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -43,12 +43,6 @@
       }
     ],
     "groundDelays": [
-      {
-        "airport": "SAN",
-        "reason": "airport volume",
-        "average": 36.0,
-        "max": 72
-      },
       {
         "airport": "SFO",
         "reason": "low ceilings",
