@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16 21:25 UTC",
+  "generatedAt": "2026-11-16 21:34 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-16T21:23:00Z",
+    "updated": "2026-11-16T21:27:00Z",
     "groundStops": [
       {
         "airport": "TEB",
@@ -50,14 +50,14 @@
         "max": 148
       }
     ],
-    "itemCount": 8
+    "itemCount": 10
   },
   "flightaware": {
-    "updated": "2026-11-16T21:17:10Z",
-    "delays_today": 16808,
-    "delays_us": 4140,
-    "cancellations_today": 804,
-    "cancellations_us": 340,
+    "updated": "2026-11-16T21:34:13Z",
+    "delays_today": 17121,
+    "delays_us": 4302,
+    "cancellations_today": 809,
+    "cancellations_us": 342,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
