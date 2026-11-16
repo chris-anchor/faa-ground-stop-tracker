@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16 13:58 UTC",
+  "generatedAt": "2026-11-16 14:28 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,15 +25,9 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-16T13:31:00Z",
+    "updated": "2026-11-16T14:27:45Z",
     "groundStops": [],
     "airportClosures": [
-      {
-        "airport": "SAN",
-        "reason": "Airport closure",
-        "start": "2026-11-16T09:00:00Z",
-        "reopen": "2026-11-16T14:00:00Z"
-      },
       {
         "airport": "SNA",
         "reason": "DLY 0730-1415",
@@ -41,15 +35,22 @@
         "reopen": "2026-11-21T14:15:00Z"
       }
     ],
-    "groundDelays": [],
+    "groundDelays": [
+      {
+        "airport": "SFO",
+        "reason": "low ceilings",
+        "average": 65.0,
+        "max": 148
+      }
+    ],
     "itemCount": 8
   },
   "flightaware": {
-    "updated": "2026-11-16T13:58:46Z",
-    "delays_today": 10270,
-    "delays_us": 1405,
-    "cancellations_today": 612,
-    "cancellations_us": 299,
+    "updated": "2026-11-16T14:28:51Z",
+    "delays_today": 10874,
+    "delays_us": 1597,
+    "cancellations_today": 631,
+    "cancellations_us": 304,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
