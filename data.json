@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16 17:13 UTC",
+  "generatedAt": "2026-11-16 17:23 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-16T16:44:41Z",
+    "updated": "2026-11-16T17:17:52Z",
     "groundStops": [
       {
         "airport": "AUS",
@@ -35,6 +35,12 @@
       }
     ],
     "airportClosures": [
+      {
+        "airport": "ARA",
+        "reason": "Airport closure",
+        "start": "2026-11-16T17:12:00Z",
+        "reopen": "2026-11-16T19:00:00Z"
+      },
       {
         "airport": "SNA",
         "reason": "DLY 0730-1415",
