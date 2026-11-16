@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-16 17:23 UTC",
+  "generatedAt": "2026-11-16 17:32 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Active",
+    "groundStop": "Lifted",
     "risk": "High"
   },
   "hi": {
@@ -25,15 +25,8 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-16T17:17:52Z",
-    "groundStops": [
-      {
-        "airport": "AUS",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-16T17:45:00Z"
-      }
-    ],
+    "updated": "2026-11-16T17:21:00Z",
+    "groundStops": [],
     "airportClosures": [
       {
         "airport": "ARA",
@@ -65,11 +58,11 @@
     "itemCount": 8
   },
   "flightaware": {
-    "updated": "2026-11-16T17:13:19Z",
-    "delays_today": 13342,
-    "delays_us": 2626,
-    "cancellations_today": 720,
-    "cancellations_us": 325,
+    "updated": "2026-11-16T17:32:50Z",
+    "delays_today": 13580,
+    "delays_us": 2724,
+    "cancellations_today": 732,
+    "cancellations_us": 328,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
