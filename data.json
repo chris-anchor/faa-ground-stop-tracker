@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16 18:45 UTC",
+  "generatedAt": "2026-11-16 18:52 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-16T18:12:29Z",
+    "updated": "2026-11-16T18:51:39Z",
     "groundStops": [
       {
         "airport": "AUS",
@@ -37,7 +37,7 @@
         "airport": "LGA",
         "reason": "Ground stop",
         "scope": "ALL",
-        "end": "2026-11-16T19:00:00Z"
+        "end": "2026-11-16T19:45:00Z"
       }
     ],
     "airportClosures": [
@@ -71,10 +71,10 @@
     "itemCount": 9
   },
   "flightaware": {
-    "updated": "2026-11-16T18:45:11Z",
+    "updated": "2026-11-16T18:52:46Z",
     "delays_today": 14769,
     "delays_us": 3197,
-    "cancellations_today": 766,
+    "cancellations_today": 767,
     "cancellations_us": 332,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
