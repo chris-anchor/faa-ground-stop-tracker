@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-16 23:28 UTC",
+  "generatedAt": "2026-11-16 23:37 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Lifted",
+    "groundStop": "Active",
     "risk": "High"
   },
   "hi": {
@@ -25,8 +25,15 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-16T23:24:40Z",
-    "groundStops": [],
+    "updated": "2026-11-16T23:29:46Z",
+    "groundStops": [
+      {
+        "airport": "LGA",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-17T00:45:00Z"
+      }
+    ],
     "airportClosures": [
       {
         "airport": "SNA",
@@ -43,7 +50,7 @@
         "max": 324
       }
     ],
-    "itemCount": 6
+    "itemCount": 7
   },
   "flightaware": {
     "updated": "2026-11-16T23:28:32Z",
