@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-16 21:57 UTC",
+  "generatedAt": "2026-11-16 22:12 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Lifted",
+    "groundStop": "Active",
     "risk": "High"
   },
   "hi": {
@@ -25,8 +25,15 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-16T21:27:00Z",
-    "groundStops": [],
+    "updated": "2026-11-16T22:04:56Z",
+    "groundStops": [
+      {
+        "airport": "AUS",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-16T23:00:00Z"
+      }
+    ],
     "airportClosures": [
       {
         "airport": "SNA",
@@ -43,14 +50,14 @@
         "max": 148
       }
     ],
-    "itemCount": 7
+    "itemCount": 8
   },
   "flightaware": {
-    "updated": "2026-11-16T21:57:55Z",
-    "delays_today": 17342,
-    "delays_us": 4399,
-    "cancellations_today": 812,
-    "cancellations_us": 342,
+    "updated": "2026-11-16T22:12:05Z",
+    "delays_today": 17588,
+    "delays_us": 4542,
+    "cancellations_today": 816,
+    "cancellations_us": 343,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
