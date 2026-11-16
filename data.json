@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16 18:52 UTC",
+  "generatedAt": "2026-11-16 19:00 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -42,12 +42,6 @@
     ],
     "airportClosures": [
       {
-        "airport": "ARA",
-        "reason": "Airport closure",
-        "start": "2026-11-16T17:12:00Z",
-        "reopen": "2026-11-16T19:00:00Z"
-      },
-      {
         "airport": "SNA",
         "reason": "DLY 0730-1415",
         "start": "2026-11-15T07:30:00Z",
@@ -68,7 +62,7 @@
         "max": 148
       }
     ],
-    "itemCount": 9
+    "itemCount": 8
   },
   "flightaware": {
     "updated": "2026-11-16T18:52:46Z",
