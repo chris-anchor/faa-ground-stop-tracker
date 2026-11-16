@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16 19:37 UTC",
+  "generatedAt": "2026-11-16 19:45 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -27,12 +27,6 @@
   "nas": {
     "updated": "2026-11-16T19:36:19Z",
     "groundStops": [
-      {
-        "airport": "AUS",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-16T20:15:00Z"
-      },
       {
         "airport": "TEB",
         "reason": "Ground stop",
@@ -62,13 +56,13 @@
         "max": 148
       }
     ],
-    "itemCount": 10
+    "itemCount": 8
   },
   "flightaware": {
-    "updated": "2026-11-16T19:37:41Z",
-    "delays_today": 15327,
-    "delays_us": 3442,
-    "cancellations_today": 774,
+    "updated": "2026-11-16T19:45:24Z",
+    "delays_today": 15587,
+    "delays_us": 3564,
+    "cancellations_today": 779,
     "cancellations_us": 333,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
