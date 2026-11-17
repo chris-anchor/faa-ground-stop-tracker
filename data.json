@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-17 18:21 UTC",
+  "generatedAt": "2026-11-17 18:30 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Lifted",
+    "groundStop": "Active",
     "risk": "High"
   },
   "hi": {
@@ -25,8 +25,15 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-17T17:44:00Z",
-    "groundStops": [],
+    "updated": "2026-11-17T18:23:47Z",
+    "groundStops": [
+      {
+        "airport": "PHX",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-17T19:30:00Z"
+      }
+    ],
     "airportClosures": [
       {
         "airport": "SNA",
