@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17 21:28 UTC",
+  "generatedAt": "2026-11-17 21:37 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -39,7 +39,7 @@
     "itemCount": 4
   },
   "flightaware": {
-    "updated": "2026-11-17T21:28:21Z",
+    "updated": "2026-11-17T21:37:42Z",
     "delays_today": 12835,
     "delays_us": 2055,
     "cancellations_today": 606,
