@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16 23:59 UTC",
+  "generatedAt": "2026-11-17 00:34 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-16T23:29:46Z",
+    "updated": "2026-11-17T00:32:45Z",
     "groundStops": [
       {
         "airport": "LGA",
@@ -43,6 +43,12 @@
       }
     ],
     "groundDelays": [
+      {
+        "airport": "SAN",
+        "reason": "airport volume",
+        "average": 44.0,
+        "max": 123
+      },
       {
         "airport": "SFO",
         "reason": "low ceilings",
