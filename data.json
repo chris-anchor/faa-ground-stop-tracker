@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-17 18:46 UTC",
+  "generatedAt": "2026-11-17 18:54 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Active",
+    "groundStop": "Lifted",
     "risk": "High"
   },
   "hi": {
@@ -25,15 +25,8 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-17T18:23:47Z",
-    "groundStops": [
-      {
-        "airport": "PHX",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-17T19:30:00Z"
-      }
-    ],
+    "updated": "2026-11-17T17:20:00Z",
+    "groundStops": [],
     "airportClosures": [
       {
         "airport": "SNA",
@@ -46,11 +39,11 @@
     "itemCount": 5
   },
   "flightaware": {
-    "updated": "2026-11-17T18:10:13Z",
-    "delays_today": 10813,
-    "delays_us": 1356,
-    "cancellations_today": 511,
-    "cancellations_us": 61,
+    "updated": "2026-11-17T18:54:34Z",
+    "delays_today": 11268,
+    "delays_us": 1525,
+    "cancellations_today": 552,
+    "cancellations_us": 65,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
