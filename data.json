@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-17 18:54 UTC",
+  "generatedAt": "2026-11-17 19:04 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Lifted",
+    "groundStop": "Active",
     "risk": "High"
   },
   "hi": {
@@ -25,8 +25,15 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-17T17:20:00Z",
-    "groundStops": [],
+    "updated": "2026-11-17T18:59:32Z",
+    "groundStops": [
+      {
+        "airport": "TEB",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-17T20:00:00Z"
+      }
+    ],
     "airportClosures": [
       {
         "airport": "SNA",
@@ -36,12 +43,12 @@
       }
     ],
     "groundDelays": [],
-    "itemCount": 5
+    "itemCount": 6
   },
   "flightaware": {
-    "updated": "2026-11-17T18:54:34Z",
-    "delays_today": 11268,
-    "delays_us": 1525,
+    "updated": "2026-11-17T19:04:17Z",
+    "delays_today": 11501,
+    "delays_us": 1619,
     "cancellations_today": 552,
     "cancellations_us": 65,
     "source_url": "https://www.flightaware.com/live/cancelled/"
