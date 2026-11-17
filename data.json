@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17 15:23 UTC",
+  "generatedAt": "2026-11-17 15:31 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-17T14:22:02Z",
+    "updated": "2026-11-17T15:12:00Z",
     "groundStops": [],
     "airportClosures": [
       {
@@ -43,7 +43,7 @@
         "max": 97
       }
     ],
-    "itemCount": 6
+    "itemCount": 7
   },
   "flightaware": {
     "updated": "2026-11-17T15:23:24Z",
