@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17 06:57 UTC",
+  "generatedAt": "2026-11-17 07:15 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-17T04:51:53Z",
+    "updated": "2026-11-13T23:29:10Z",
     "groundStops": [],
     "airportClosures": [
       {
@@ -41,15 +41,8 @@
         "reopen": "2026-11-21T14:15:00Z"
       }
     ],
-    "groundDelays": [
-      {
-        "airport": "SFO",
-        "reason": "low ceilings",
-        "average": 144.0,
-        "max": 403
-      }
-    ],
-    "itemCount": 7
+    "groundDelays": [],
+    "itemCount": 6
   },
   "flightaware": {
     "updated": "2026-11-17T06:57:50Z",
