@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18 23:03 UTC",
+  "generatedAt": "2026-11-18 23:13 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,15 +25,9 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-18T22:54:01Z",
+    "updated": "2026-11-18T19:46:19Z",
     "groundStops": [],
     "airportClosures": [
-      {
-        "airport": "EWR",
-        "reason": "EXC 2HR \rPPR 973-624-1660",
-        "start": "2026-11-18T22:51:00Z",
-        "reopen": "2026-11-19T05:00:00Z"
-      },
       {
         "airport": "SNA",
         "reason": "DLY 0730-1415",
@@ -49,14 +43,14 @@
         "max": 658
       }
     ],
-    "itemCount": 7
+    "itemCount": 6
   },
   "flightaware": {
-    "updated": "2026-11-18T22:54:06Z",
-    "delays_today": 16790,
-    "delays_us": 3128,
-    "cancellations_today": 658,
-    "cancellations_us": 113,
+    "updated": "2026-11-18T23:13:56Z",
+    "delays_today": 16938,
+    "delays_us": 3223,
+    "cancellations_today": 663,
+    "cancellations_us": 114,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
