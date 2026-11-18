@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18 14:24 UTC",
+  "generatedAt": "2026-11-18 14:33 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -28,12 +28,6 @@
     "updated": "2026-11-18T14:13:28Z",
     "groundStops": [
       {
-        "airport": "FLL",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-18T14:45:00Z"
-      },
-      {
         "airport": "MIA",
         "reason": "Ground stop",
         "scope": "ALL",
@@ -56,14 +50,14 @@
         "max": 130
       }
     ],
-    "itemCount": 8
+    "itemCount": 7
   },
   "flightaware": {
-    "updated": "2026-11-18T14:24:38Z",
+    "updated": "2026-11-18T14:33:20Z",
     "delays_today": 10085,
     "delays_us": 632,
-    "cancellations_today": 436,
-    "cancellations_us": 42,
+    "cancellations_today": 446,
+    "cancellations_us": 44,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
