@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-18 14:56 UTC",
+  "generatedAt": "2026-11-18 15:10 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Active",
+    "groundStop": "Lifted",
     "risk": "High"
   },
   "hi": {
@@ -25,15 +25,8 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-18T14:13:28Z",
-    "groundStops": [
-      {
-        "airport": "MIA",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-18T15:15:00Z"
-      }
-    ],
+    "updated": "2026-11-18T14:47:00Z",
+    "groundStops": [],
     "airportClosures": [
       {
         "airport": "SNA",
@@ -53,10 +46,10 @@
     "itemCount": 7
   },
   "flightaware": {
-    "updated": "2026-11-18T14:56:36Z",
-    "delays_today": 10360,
-    "delays_us": 707,
-    "cancellations_today": 454,
+    "updated": "2026-11-18T15:10:34Z",
+    "delays_today": 10667,
+    "delays_us": 779,
+    "cancellations_today": 460,
     "cancellations_us": 48,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
