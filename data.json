@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18 20:02 UTC",
+  "generatedAt": "2026-11-18 20:14 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,14 +25,8 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-18T20:02:12Z",
+    "updated": "2026-11-18T20:05:00Z",
     "groundStops": [
-      {
-        "airport": "DJT",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-18T20:15:00Z"
-      },
       {
         "airport": "TEB",
         "reason": "Ground stop",
@@ -59,11 +53,11 @@
     "itemCount": 9
   },
   "flightaware": {
-    "updated": "2026-11-18T19:53:41Z",
-    "delays_today": 14745,
-    "delays_us": 2279,
-    "cancellations_today": 579,
-    "cancellations_us": 73,
+    "updated": "2026-11-18T20:14:42Z",
+    "delays_today": 15009,
+    "delays_us": 2401,
+    "cancellations_today": 589,
+    "cancellations_us": 81,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
