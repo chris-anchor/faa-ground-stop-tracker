@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18 19:04 UTC",
+  "generatedAt": "2026-11-18 19:12 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,8 +25,14 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-18T18:27:38Z",
+    "updated": "2026-11-18T19:04:37Z",
     "groundStops": [
+      {
+        "airport": "DJT",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-18T20:15:00Z"
+      },
       {
         "airport": "SFO",
         "reason": "Ground stop",
@@ -53,11 +59,11 @@
     "itemCount": 8
   },
   "flightaware": {
-    "updated": "2026-11-18T18:54:33Z",
-    "delays_today": 13894,
-    "delays_us": 1923,
-    "cancellations_today": 554,
-    "cancellations_us": 68,
+    "updated": "2026-11-18T19:12:36Z",
+    "delays_today": 14158,
+    "delays_us": 2047,
+    "cancellations_today": 560,
+    "cancellations_us": 71,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
