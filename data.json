@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19 14:16 UTC",
+  "generatedAt": "2026-11-19 14:25 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-19T14:09:19Z",
+    "updated": "2026-11-19T14:19:00Z",
     "groundStops": [
       {
         "airport": "AUS",
@@ -53,10 +53,10 @@
     "itemCount": 8
   },
   "flightaware": {
-    "updated": "2026-11-19T14:16:35Z",
-    "delays_today": 10927,
-    "delays_us": 707,
-    "cancellations_today": 433,
+    "updated": "2026-11-19T14:25:15Z",
+    "delays_today": 11249,
+    "delays_us": 791,
+    "cancellations_today": 436,
     "cancellations_us": 55,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
