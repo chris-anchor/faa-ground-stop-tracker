@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19 18:29 UTC",
+  "generatedAt": "2026-11-19 18:38 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-19T18:13:14Z",
+    "updated": "2026-11-19T18:33:00Z",
     "groundStops": [],
     "airportClosures": [
       {
@@ -36,12 +36,6 @@
       }
     ],
     "groundDelays": [
-      {
-        "airport": "AUS",
-        "reason": "low ceilings",
-        "average": 54.0,
-        "max": 272
-      },
       {
         "airport": "LAS",
         "reason": "low ceilings",
@@ -55,14 +49,14 @@
         "max": 135
       }
     ],
-    "itemCount": 10
+    "itemCount": 11
   },
   "flightaware": {
-    "updated": "2026-11-19T18:29:10Z",
+    "updated": "2026-11-19T18:38:14Z",
     "delays_today": 15386,
     "delays_us": 2291,
-    "cancellations_today": 542,
-    "cancellations_us": 79,
+    "cancellations_today": 551,
+    "cancellations_us": 81,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
