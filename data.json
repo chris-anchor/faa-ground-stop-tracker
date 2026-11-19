@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19 21:07 UTC",
+  "generatedAt": "2026-11-19 21:15 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-19T20:54:00Z",
+    "updated": "2026-11-19T21:03:00Z",
     "groundStops": [],
     "airportClosures": [
       {
@@ -49,10 +49,10 @@
         "max": 135
       }
     ],
-    "itemCount": 6
+    "itemCount": 7
   },
   "flightaware": {
-    "updated": "2026-11-19T21:07:36Z",
+    "updated": "2026-11-19T21:15:52Z",
     "delays_today": 17768,
     "delays_us": 3232,
     "cancellations_today": 613,
