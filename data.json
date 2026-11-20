@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20 03:53 UTC",
+  "generatedAt": "2026-11-20 04:01 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -44,12 +44,6 @@
     ],
     "groundDelays": [
       {
-        "airport": "LAS",
-        "reason": "low ceilings",
-        "average": 47.0,
-        "max": 89
-      },
-      {
         "airport": "SAN",
         "reason": "low visibility",
         "average": 66.0,
@@ -65,11 +59,11 @@
     "itemCount": 5
   },
   "flightaware": {
-    "updated": "2026-11-20T03:53:16Z",
-    "delays_today": 21511,
-    "delays_us": 5119,
-    "cancellations_today": 693,
-    "cancellations_us": 120,
+    "updated": "2026-11-20T04:01:35Z",
+    "delays_today": 21619,
+    "delays_us": 5170,
+    "cancellations_today": 700,
+    "cancellations_us": 124,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
