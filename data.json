@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20 19:31 UTC",
+  "generatedAt": "2026-11-20 19:39 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,8 +25,14 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-20T19:17:50Z",
+    "updated": "2026-11-20T19:35:33Z",
     "groundStops": [
+      {
+        "airport": "AUS",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-20T20:30:00Z"
+      },
       {
         "airport": "BFI",
         "reason": "Ground stop",
