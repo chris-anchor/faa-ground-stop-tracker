@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20 21:24 UTC",
+  "generatedAt": "2026-11-20 21:32 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,13 +25,13 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-20T21:22:00Z",
+    "updated": "2026-11-20T21:31:57Z",
     "groundStops": [
       {
         "airport": "TEB",
         "reason": "Ground stop",
         "scope": "ALL",
-        "end": "2026-11-20T21:30:00Z"
+        "end": "2026-11-20T22:45:00Z"
       }
     ],
     "airportClosures": [
@@ -50,7 +50,7 @@
         "max": 97
       }
     ],
-    "itemCount": 10
+    "itemCount": 11
   },
   "flightaware": {
     "updated": "2026-11-20T21:24:25Z",
