@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20 20:24 UTC",
+  "generatedAt": "2026-11-20 20:32 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,19 +25,19 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-20T19:56:00Z",
+    "updated": "2026-11-20T20:31:19Z",
     "groundStops": [
-      {
-        "airport": "AUS",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-20T20:30:00Z"
-      },
       {
         "airport": "BFI",
         "reason": "Ground stop",
         "scope": "ALL",
         "end": "2026-11-20T21:00:00Z"
+      },
+      {
+        "airport": "TEB",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-20T21:30:00Z"
       }
     ],
     "airportClosures": [
@@ -59,11 +59,11 @@
     "itemCount": 8
   },
   "flightaware": {
-    "updated": "2026-11-20T20:24:24Z",
+    "updated": "2026-11-20T20:32:27Z",
     "delays_today": 20857,
     "delays_us": 3319,
-    "cancellations_today": 714,
-    "cancellations_us": 112,
+    "cancellations_today": 719,
+    "cancellations_us": 115,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
