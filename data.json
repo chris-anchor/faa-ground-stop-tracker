@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20 04:44 UTC",
+  "generatedAt": "2026-11-20 04:52 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -37,12 +37,6 @@
     ],
     "groundDelays": [
       {
-        "airport": "SAN",
-        "reason": "low visibility",
-        "average": 66.0,
-        "max": 159
-      },
-      {
         "airport": "SFO",
         "reason": "low ceilings",
         "average": 139.0,
@@ -52,7 +46,7 @@
     "itemCount": 5
   },
   "flightaware": {
-    "updated": "2026-11-20T04:44:01Z",
+    "updated": "2026-11-20T04:52:16Z",
     "delays_today": 21773,
     "delays_us": 5228,
     "cancellations_today": 704,
