@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-19 23:52 UTC",
+  "generatedAt": "2026-11-20 00:00 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Lifted",
+    "groundStop": "Active",
     "risk": "High"
   },
   "hi": {
@@ -25,8 +25,15 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-19T23:44:00Z",
-    "groundStops": [],
+    "updated": "2026-11-19T23:56:05Z",
+    "groundStops": [
+      {
+        "airport": "SAN",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-20T01:00:00Z"
+      }
+    ],
     "airportClosures": [
       {
         "airport": "SNA",
@@ -52,10 +59,10 @@
     "itemCount": 5
   },
   "flightaware": {
-    "updated": "2026-11-19T23:52:20Z",
+    "updated": "2026-11-20T00:00:12Z",
     "delays_today": 19591,
     "delays_us": 4136,
-    "cancellations_today": 645,
+    "cancellations_today": 649,
     "cancellations_us": 107,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
