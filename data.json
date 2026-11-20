@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-20 03:37 UTC",
+  "generatedAt": "2026-11-20 03:45 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Lifted",
+    "groundStop": "Active",
     "risk": "High"
   },
   "hi": {
@@ -25,8 +25,15 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-20T02:49:10Z",
-    "groundStops": [],
+    "updated": "2026-11-20T03:39:12Z",
+    "groundStops": [
+      {
+        "airport": "LAS",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-20T04:30:00Z"
+      }
+    ],
     "airportClosures": [
       {
         "airport": "SNA",
@@ -58,10 +65,10 @@
     "itemCount": 5
   },
   "flightaware": {
-    "updated": "2026-11-20T03:27:44Z",
-    "delays_today": 21433,
-    "delays_us": 5084,
-    "cancellations_today": 687,
+    "updated": "2026-11-20T03:45:01Z",
+    "delays_today": 21511,
+    "delays_us": 5119,
+    "cancellations_today": 690,
     "cancellations_us": 119,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
