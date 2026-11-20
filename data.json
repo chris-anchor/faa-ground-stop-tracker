@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20 02:44 UTC",
+  "generatedAt": "2026-11-20 02:51 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-20T00:46:03Z",
+    "updated": "2026-11-20T02:49:10Z",
     "groundStops": [],
     "airportClosures": [
       {
@@ -50,9 +50,9 @@
       },
       {
         "airport": "SFO",
-        "reason": "LOW",
-        "average": 80.0,
-        "max": 331
+        "reason": "low ceilings",
+        "average": 139.0,
+        "max": 286
       }
     ],
     "itemCount": 5
