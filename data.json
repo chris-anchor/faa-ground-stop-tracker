@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20 10:54 UTC",
+  "generatedAt": "2026-11-20 11:05 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -29,12 +29,6 @@
     "groundStops": [],
     "airportClosures": [
       {
-        "airport": "PNS",
-        "reason": "except HEL OPS",
-        "start": "2026-11-20T06:00:00Z",
-        "reopen": "2026-11-20T11:00:00Z"
-      },
-      {
         "airport": "SNA",
         "reason": "DLY 0730-1415",
         "start": "2026-11-15T07:30:00Z",
@@ -42,13 +36,13 @@
       }
     ],
     "groundDelays": [],
-    "itemCount": 6
+    "itemCount": 5
   },
   "flightaware": {
-    "updated": "2026-11-20T10:54:54Z",
-    "delays_today": 10401,
-    "delays_us": 353,
-    "cancellations_today": 364,
+    "updated": "2026-11-20T11:05:30Z",
+    "delays_today": 10765,
+    "delays_us": 358,
+    "cancellations_today": 366,
     "cancellations_us": 52,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
