@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21 12:53 UTC",
+  "generatedAt": "2026-11-21 13:00 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -55,7 +55,7 @@
         "max": 52
       }
     ],
-    "itemCount": 8
+    "itemCount": 7
   },
   "flightaware": {
     "updated": "2026-11-21T12:53:00Z",
