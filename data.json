@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21 14:12 UTC",
+  "generatedAt": "2026-11-21 14:21 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -40,12 +40,6 @@
         "reason": "EXC 20MIN \rPPR 122.950/304-453-6165",
         "start": "2026-11-21T12:00:00Z",
         "reopen": "2026-11-21T22:00:00Z"
-      },
-      {
-        "airport": "SNA",
-        "reason": "DLY 0730-1415",
-        "start": "2026-11-15T07:30:00Z",
-        "reopen": "2026-11-21T14:15:00Z"
       }
     ],
     "groundDelays": [
@@ -62,13 +56,13 @@
         "max": 129
       }
     ],
-    "itemCount": 10
+    "itemCount": 9
   },
   "flightaware": {
-    "updated": "2026-11-21T14:12:22Z",
-    "delays_today": 9667,
-    "delays_us": 880,
-    "cancellations_today": 418,
+    "updated": "2026-11-21T14:21:24Z",
+    "delays_today": 9914,
+    "delays_us": 944,
+    "cancellations_today": 419,
     "cancellations_us": 54,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
