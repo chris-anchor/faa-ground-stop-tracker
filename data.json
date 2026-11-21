@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-21 18:47 UTC",
+  "generatedAt": "2026-11-21 18:55 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Lifted",
+    "groundStop": "Active",
     "risk": "High"
   },
   "hi": {
@@ -25,8 +25,15 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-21T18:39:00Z",
-    "groundStops": [],
+    "updated": "2026-11-21T18:52:03Z",
+    "groundStops": [
+      {
+        "airport": "MIA",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-21T20:00:00Z"
+      }
+    ],
     "airportClosures": [
       {
         "airport": "HTS",
@@ -52,11 +59,11 @@
     "itemCount": 12
   },
   "flightaware": {
-    "updated": "2026-11-21T18:47:37Z",
+    "updated": "2026-11-21T18:55:02Z",
     "delays_today": 13569,
     "delays_us": 2517,
-    "cancellations_today": 531,
-    "cancellations_us": 79,
+    "cancellations_today": 542,
+    "cancellations_us": 81,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
