@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21 17:27 UTC",
+  "generatedAt": "2026-11-21 17:36 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-21T17:06:00Z",
+    "updated": "2026-11-21T17:34:26Z",
     "groundStops": [],
     "airportClosures": [
       {
@@ -47,15 +47,21 @@
         "reason": "low ceilings",
         "average": 36.0,
         "max": 129
+      },
+      {
+        "airport": "YVR",
+        "reason": "airport volume",
+        "average": 20.0,
+        "max": 38
       }
     ],
-    "itemCount": 10
+    "itemCount": 11
   },
   "flightaware": {
-    "updated": "2026-11-21T17:27:42Z",
+    "updated": "2026-11-21T17:36:44Z",
     "delays_today": 12410,
     "delays_us": 1953,
-    "cancellations_today": 479,
+    "cancellations_today": 483,
     "cancellations_us": 68,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
