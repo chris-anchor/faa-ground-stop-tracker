@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21 17:44 UTC",
+  "generatedAt": "2026-11-21 17:52 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -37,12 +37,6 @@
     ],
     "groundDelays": [
       {
-        "airport": "LGA",
-        "reason": "runway construction",
-        "average": 22.0,
-        "max": 52
-      },
-      {
         "airport": "SFO",
         "reason": "low ceilings",
         "average": 36.0,
@@ -55,13 +49,13 @@
         "max": 38
       }
     ],
-    "itemCount": 11
+    "itemCount": 10
   },
   "flightaware": {
-    "updated": "2026-11-21T17:44:41Z",
+    "updated": "2026-11-21T17:52:15Z",
     "delays_today": 12620,
     "delays_us": 2045,
-    "cancellations_today": 489,
+    "cancellations_today": 490,
     "cancellations_us": 72,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
