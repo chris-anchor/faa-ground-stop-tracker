@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21 18:55 UTC",
+  "generatedAt": "2026-11-21 19:05 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -44,26 +44,20 @@
     ],
     "groundDelays": [
       {
-        "airport": "SFO",
-        "reason": "low ceilings",
-        "average": 36.0,
-        "max": 129
-      },
-      {
         "airport": "YVR",
         "reason": "airport volume",
         "average": 20.0,
         "max": 38
       }
     ],
-    "itemCount": 12
+    "itemCount": 10
   },
   "flightaware": {
-    "updated": "2026-11-21T18:55:02Z",
-    "delays_today": 13569,
-    "delays_us": 2517,
-    "cancellations_today": 542,
-    "cancellations_us": 81,
+    "updated": "2026-11-21T19:05:24Z",
+    "delays_today": 13845,
+    "delays_us": 2639,
+    "cancellations_today": 546,
+    "cancellations_us": 83,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
