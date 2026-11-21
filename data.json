@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-21 16:13 UTC",
+  "generatedAt": "2026-11-21 16:22 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Active",
+    "groundStop": "Lifted",
     "risk": "High"
   },
   "hi": {
@@ -25,15 +25,8 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-21T16:03:00Z",
-    "groundStops": [
-      {
-        "airport": "YYZ",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-21T16:45:00Z"
-      }
-    ],
+    "updated": "2026-11-21T16:15:00Z",
+    "groundStops": [],
     "airportClosures": [
       {
         "airport": "HTS",
@@ -59,9 +52,9 @@
     "itemCount": 11
   },
   "flightaware": {
-    "updated": "2026-11-21T16:13:32Z",
-    "delays_today": 11225,
-    "delays_us": 1421,
+    "updated": "2026-11-21T16:22:02Z",
+    "delays_today": 11559,
+    "delays_us": 1558,
     "cancellations_today": 453,
     "cancellations_us": 61,
     "source_url": "https://www.flightaware.com/live/cancelled/"
