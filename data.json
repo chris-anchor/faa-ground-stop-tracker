@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-21 16:45 UTC",
+  "generatedAt": "2026-11-21 16:53 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Lifted",
+    "groundStop": "Active",
     "risk": "High"
   },
   "hi": {
@@ -25,8 +25,15 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-21T16:34:00Z",
-    "groundStops": [],
+    "updated": "2026-11-21T16:48:28Z",
+    "groundStops": [
+      {
+        "airport": "AUS",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-21T18:00:00Z"
+      }
+    ],
     "airportClosures": [
       {
         "airport": "HTS",
@@ -52,11 +59,11 @@
     "itemCount": 11
   },
   "flightaware": {
-    "updated": "2026-11-21T16:45:07Z",
+    "updated": "2026-11-21T16:53:01Z",
     "delays_today": 11880,
     "delays_us": 1703,
-    "cancellations_today": 459,
-    "cancellations_us": 61,
+    "cancellations_today": 463,
+    "cancellations_us": 62,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
