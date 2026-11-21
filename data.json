@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21 12:37 UTC",
+  "generatedAt": "2026-11-21 12:45 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-21T11:49:14Z",
+    "updated": "2026-11-21T12:44:50Z",
     "groundStops": [],
     "airportClosures": [
       {
@@ -43,19 +43,25 @@
     ],
     "groundDelays": [
       {
+        "airport": "AUS",
+        "reason": "runway construction",
+        "average": 43.0,
+        "max": 106
+      },
+      {
         "airport": "LGA",
         "reason": "runway construction",
         "average": 22.0,
         "max": 52
       }
     ],
-    "itemCount": 7
+    "itemCount": 8
   },
   "flightaware": {
-    "updated": "2026-11-21T12:37:28Z",
-    "delays_today": 8194,
-    "delays_us": 439,
-    "cancellations_today": 377,
+    "updated": "2026-11-21T12:45:24Z",
+    "delays_today": 8556,
+    "delays_us": 550,
+    "cancellations_today": 386,
     "cancellations_us": 53,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
