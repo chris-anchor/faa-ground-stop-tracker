@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21 15:00 UTC",
+  "generatedAt": "2026-11-21 15:11 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-21T14:57:48Z",
+    "updated": "2026-11-21T15:01:56Z",
     "groundStops": [
       {
         "airport": "YOW",
@@ -37,7 +37,7 @@
         "airport": "YYZ",
         "reason": "Ground stop",
         "scope": "ALL",
-        "end": "2026-11-21T15:45:00Z"
+        "end": "2026-11-21T16:00:00Z"
       }
     ],
     "airportClosures": [
@@ -65,10 +65,10 @@
     "itemCount": 12
   },
   "flightaware": {
-    "updated": "2026-11-21T15:00:23Z",
+    "updated": "2026-11-21T15:11:46Z",
     "delays_today": 10435,
     "delays_us": 1079,
-    "cancellations_today": 428,
+    "cancellations_today": 431,
     "cancellations_us": 56,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
