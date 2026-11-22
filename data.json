@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-22 17:00 UTC",
+  "generatedAt": "2026-11-22 17:11 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Active",
+    "groundStop": "Lifted",
     "risk": "High"
   },
   "hi": {
@@ -25,15 +25,8 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-22T16:59:28Z",
-    "groundStops": [
-      {
-        "airport": "LGA",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-22T17:15:00Z"
-      }
-    ],
+    "updated": "2026-11-22T17:09:41Z",
+    "groundStops": [],
     "airportClosures": [],
     "groundDelays": [
       {
@@ -45,8 +38,8 @@
       {
         "airport": "LGA",
         "reason": "low visibility",
-        "average": 61.0,
-        "max": 123
+        "average": 148.0,
+        "max": 362
       },
       {
         "airport": "SAN",
@@ -58,11 +51,11 @@
     "itemCount": 7
   },
   "flightaware": {
-    "updated": "2026-11-22T17:00:44Z",
+    "updated": "2026-11-22T17:11:18Z",
     "delays_today": 13604,
     "delays_us": 3326,
-    "cancellations_today": 555,
-    "cancellations_us": 105,
+    "cancellations_today": 570,
+    "cancellations_us": 113,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
