@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22 12:37 UTC",
+  "generatedAt": "2026-11-22 12:45 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-22T12:35:30Z",
+    "updated": "2026-11-22T12:44:00Z",
     "groundStops": [
       {
         "airport": "HOU",
@@ -37,7 +37,7 @@
         "airport": "LGA",
         "reason": "Ground stop",
         "scope": "ALL",
-        "end": "2026-11-22T12:45:00Z"
+        "end": "2026-11-22T13:15:00Z"
       }
     ],
     "airportClosures": [],
@@ -45,11 +45,11 @@
     "itemCount": 5
   },
   "flightaware": {
-    "updated": "2026-11-22T12:37:36Z",
-    "delays_today": 7851,
-    "delays_us": 616,
-    "cancellations_today": 420,
-    "cancellations_us": 82,
+    "updated": "2026-11-22T12:45:48Z",
+    "delays_today": 8163,
+    "delays_us": 666,
+    "cancellations_today": 425,
+    "cancellations_us": 83,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
