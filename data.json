@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22 23:12 UTC",
+  "generatedAt": "2026-11-22 23:21 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -37,26 +37,20 @@
     "airportClosures": [],
     "groundDelays": [
       {
-        "airport": "EWR",
-        "reason": "low ceilings",
-        "average": 105.0,
-        "max": 355
-      },
-      {
         "airport": "LGA",
         "reason": "low visibility",
         "average": 139.0,
         "max": 361
       }
     ],
-    "itemCount": 8
+    "itemCount": 7
   },
   "flightaware": {
-    "updated": "2026-11-22T23:12:31Z",
-    "delays_today": 20042,
-    "delays_us": 6653,
-    "cancellations_today": 984,
-    "cancellations_us": 370,
+    "updated": "2026-11-22T23:21:16Z",
+    "delays_today": 20241,
+    "delays_us": 6759,
+    "cancellations_today": 992,
+    "cancellations_us": 376,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
