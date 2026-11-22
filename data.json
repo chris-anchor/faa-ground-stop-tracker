@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-22 23:28 UTC",
+  "generatedAt": "2026-11-22 23:37 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Active",
+    "groundStop": "Lifted",
     "risk": "High"
   },
   "hi": {
@@ -26,14 +26,7 @@
   },
   "nas": {
     "updated": "2026-11-22T22:53:21Z",
-    "groundStops": [
-      {
-        "airport": "TEB",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-22T23:30:00Z"
-      }
-    ],
+    "groundStops": [],
     "airportClosures": [],
     "groundDelays": [
       {
@@ -43,14 +36,14 @@
         "max": 361
       }
     ],
-    "itemCount": 6
+    "itemCount": 4
   },
   "flightaware": {
-    "updated": "2026-11-22T23:21:16Z",
+    "updated": "2026-11-22T23:37:18Z",
     "delays_today": 20241,
     "delays_us": 6759,
-    "cancellations_today": 992,
-    "cancellations_us": 376,
+    "cancellations_today": 1005,
+    "cancellations_us": 384,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
