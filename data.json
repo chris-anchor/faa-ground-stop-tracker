@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22 22:37 UTC",
+  "generatedAt": "2026-11-22 22:45 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -28,12 +28,6 @@
     "updated": "2026-11-22T22:16:37Z",
     "groundStops": [
       {
-        "airport": "HPN",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-22T22:45:00Z"
-      },
-      {
         "airport": "TEB",
         "reason": "Ground stop",
         "scope": "ALL",
@@ -55,7 +49,7 @@
         "max": 419
       }
     ],
-    "itemCount": 9
+    "itemCount": 8
   },
   "flightaware": {
     "updated": "2026-11-22T22:37:06Z",
