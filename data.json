@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22 21:52 UTC",
+  "generatedAt": "2026-11-22 22:00 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -53,12 +53,6 @@
         "reason": "low visibility",
         "average": 199.0,
         "max": 419
-      },
-      {
-        "airport": "SAN",
-        "reason": "airport volume",
-        "average": 33.0,
-        "max": 75
       }
     ],
     "itemCount": 10
