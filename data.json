@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22 20:02 UTC",
+  "generatedAt": "2026-11-22 20:14 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,19 +25,13 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-22T19:49:00Z",
+    "updated": "2026-11-22T20:12:00Z",
     "groundStops": [
       {
         "airport": "LGA",
         "reason": "Ground stop",
         "scope": "ALL",
         "end": "2026-11-22T21:00:00Z"
-      },
-      {
-        "airport": "TEB",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-22T20:30:00Z"
       }
     ],
     "airportClosures": [],
@@ -67,14 +61,14 @@
         "max": 116
       }
     ],
-    "itemCount": 13
+    "itemCount": 12
   },
   "flightaware": {
-    "updated": "2026-11-22T19:45:55Z",
-    "delays_today": 16809,
-    "delays_us": 4945,
-    "cancellations_today": 786,
-    "cancellations_us": 206,
+    "updated": "2026-11-22T20:14:07Z",
+    "delays_today": 17179,
+    "delays_us": 5119,
+    "cancellations_today": 814,
+    "cancellations_us": 223,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
