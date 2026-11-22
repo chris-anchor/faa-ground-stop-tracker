@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22 17:51 UTC",
+  "generatedAt": "2026-11-22 17:58 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,15 +25,15 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-22T17:49:00Z",
+    "updated": "2026-11-22T17:54:44Z",
     "groundStops": [],
     "airportClosures": [],
     "groundDelays": [
       {
         "airport": "EWR",
         "reason": "low ceilings",
-        "average": 115.0,
-        "max": 179
+        "average": 105.0,
+        "max": 355
       },
       {
         "airport": "LGA",
@@ -54,7 +54,7 @@
         "max": 116
       }
     ],
-    "itemCount": 13
+    "itemCount": 14
   },
   "flightaware": {
     "updated": "2026-11-22T17:51:19Z",
