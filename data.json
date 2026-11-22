@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-22 15:36 UTC",
+  "generatedAt": "2026-11-22 15:44 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Active",
+    "groundStop": "Lifted",
     "risk": "High"
   },
   "hi": {
@@ -25,15 +25,8 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-22T15:28:00Z",
-    "groundStops": [
-      {
-        "airport": "LGA",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-22T16:15:00Z"
-      }
-    ],
+    "updated": "2026-11-22T15:39:36Z",
+    "groundStops": [],
     "airportClosures": [],
     "groundDelays": [
       {
@@ -41,6 +34,12 @@
         "reason": "other",
         "average": 57.0,
         "max": 111
+      },
+      {
+        "airport": "LGA",
+        "reason": "low visibility",
+        "average": 61.0,
+        "max": 123
       },
       {
         "airport": "SAN",
