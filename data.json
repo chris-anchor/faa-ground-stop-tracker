@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22 21:27 UTC",
+  "generatedAt": "2026-11-22 21:36 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -27,6 +27,12 @@
   "nas": {
     "updated": "2026-11-22T22:10:00Z",
     "groundStops": [
+      {
+        "airport": "HPN",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-22T22:45:00Z"
+      },
       {
         "airport": "TEB",
         "reason": "Ground stop",
@@ -64,11 +70,11 @@
     "itemCount": 11
   },
   "flightaware": {
-    "updated": "2026-11-22T21:27:56Z",
+    "updated": "2026-11-22T21:36:50Z",
     "delays_today": 18612,
     "delays_us": 5884,
-    "cancellations_today": 867,
-    "cancellations_us": 272,
+    "cancellations_today": 875,
+    "cancellations_us": 279,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
