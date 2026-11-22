@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22 20:30 UTC",
+  "generatedAt": "2026-11-22 20:37 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,14 +25,8 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-22T20:13:45Z",
+    "updated": "2026-11-22T20:34:21Z",
     "groundStops": [
-      {
-        "airport": "LGA",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-22T21:00:00Z"
-      },
       {
         "airport": "TEB",
         "reason": "Ground stop",
@@ -51,8 +45,8 @@
       {
         "airport": "LGA",
         "reason": "low visibility",
-        "average": 148.0,
-        "max": 362
+        "average": 199.0,
+        "max": 419
       },
       {
         "airport": "SAN",
