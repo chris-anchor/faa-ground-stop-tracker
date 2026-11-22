@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22 17:19 UTC",
+  "generatedAt": "2026-11-22 17:27 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-22T17:19:19Z",
+    "updated": "2026-11-22T17:25:00Z",
     "groundStops": [
       {
         "airport": "SFO",
@@ -55,7 +55,7 @@
         "max": 75
       }
     ],
-    "itemCount": 8
+    "itemCount": 12
   },
   "flightaware": {
     "updated": "2026-11-22T17:11:18Z",
