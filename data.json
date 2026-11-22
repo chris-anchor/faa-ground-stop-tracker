@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22 13:28 UTC",
+  "generatedAt": "2026-11-22 13:37 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,14 +25,8 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-22T13:23:00Z",
+    "updated": "2026-11-22T13:32:09Z",
     "groundStops": [
-      {
-        "airport": "ATL",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-22T14:00:00Z"
-      },
       {
         "airport": "HOU",
         "reason": "Ground stop",
@@ -47,14 +41,21 @@
       }
     ],
     "airportClosures": [],
-    "groundDelays": [],
+    "groundDelays": [
+      {
+        "airport": "ATL",
+        "reason": "other",
+        "average": 57.0,
+        "max": 111
+      }
+    ],
     "itemCount": 6
   },
   "flightaware": {
-    "updated": "2026-11-22T13:28:58Z",
+    "updated": "2026-11-22T13:37:06Z",
     "delays_today": 8828,
     "delays_us": 967,
-    "cancellations_today": 452,
+    "cancellations_today": 456,
     "cancellations_us": 84,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
