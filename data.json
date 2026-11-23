@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-23 16:54 UTC",
+  "generatedAt": "2026-11-23 17:06 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Lifted",
+    "groundStop": "Active",
     "risk": "High"
   },
   "hi": {
@@ -25,8 +25,15 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-23T16:42:00Z",
-    "groundStops": [],
+    "updated": "2026-11-23T17:01:34Z",
+    "groundStops": [
+      {
+        "airport": "ORD",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-23T18:15:00Z"
+      }
+    ],
     "airportClosures": [],
     "groundDelays": [
       {
@@ -36,7 +43,7 @@
         "max": 80
       }
     ],
-    "itemCount": 7
+    "itemCount": 8
   },
   "flightaware": {
     "updated": "2026-11-23T16:54:57Z",
