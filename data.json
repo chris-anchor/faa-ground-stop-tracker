@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23 14:34 UTC",
+  "generatedAt": "2026-11-23 14:42 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,17 +25,24 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-23T14:18:00Z",
+    "updated": "2026-11-23T14:38:08Z",
     "groundStops": [],
     "airportClosures": [],
-    "groundDelays": [],
+    "groundDelays": [
+      {
+        "airport": "SAN",
+        "reason": "airport volume",
+        "average": 30.0,
+        "max": 80
+      }
+    ],
     "itemCount": 7
   },
   "flightaware": {
-    "updated": "2026-11-23T14:25:18Z",
-    "delays_today": 10341,
-    "delays_us": 1116,
-    "cancellations_today": 931,
+    "updated": "2026-11-23T14:42:45Z",
+    "delays_today": 10728,
+    "delays_us": 1305,
+    "cancellations_today": 940,
     "cancellations_us": 184,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
