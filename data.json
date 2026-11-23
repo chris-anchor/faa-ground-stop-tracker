@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23 05:55 UTC",
+  "generatedAt": "2026-11-23 06:19 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,18 +25,25 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-10-28T19:30:18Z",
+    "updated": "2026-11-19T22:45:54Z",
     "groundStops": [],
-    "airportClosures": [],
+    "airportClosures": [
+      {
+        "airport": "PNS",
+        "reason": "except HEL OPS",
+        "start": "2026-11-23T06:00:00Z",
+        "reopen": "2026-11-23T11:00:00Z"
+      }
+    ],
     "groundDelays": [],
-    "itemCount": 3
+    "itemCount": 4
   },
   "flightaware": {
-    "updated": "2026-11-23T05:55:45Z",
-    "delays_today": 2914,
-    "delays_us": 250,
-    "cancellations_today": 702,
-    "cancellations_us": 126,
+    "updated": "2026-11-23T06:19:15Z",
+    "delays_today": 3072,
+    "delays_us": 253,
+    "cancellations_today": 715,
+    "cancellations_us": 133,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
