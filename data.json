@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24 10:47 UTC",
+  "generatedAt": "2026-11-24 10:55 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -33,19 +33,13 @@
         "reason": "except HEL 30MIN \rPPR 718-533-3700",
         "start": "2026-11-24T05:14:00Z",
         "reopen": "2026-11-24T11:00:00Z"
-      },
-      {
-        "airport": "PNS",
-        "reason": "except HEL OPS",
-        "start": "2026-11-24T06:00:00Z",
-        "reopen": "2026-11-24T11:00:00Z"
       }
     ],
     "groundDelays": [],
-    "itemCount": 5
+    "itemCount": 4
   },
   "flightaware": {
-    "updated": "2026-11-24T10:47:17Z",
+    "updated": "2026-11-24T10:55:09Z",
     "delays_today": 7144,
     "delays_us": 377,
     "cancellations_today": 443,
