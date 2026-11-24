@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-24 21:15 UTC",
+  "generatedAt": "2026-11-24 21:24 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Lifted",
+    "groundStop": "Active",
     "risk": "High"
   },
   "hi": {
@@ -25,18 +25,25 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-10-28T19:30:18Z",
-    "groundStops": [],
+    "updated": "2026-11-24T21:22:17Z",
+    "groundStops": [
+      {
+        "airport": "ORD",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-24T22:15:00Z"
+      }
+    ],
     "airportClosures": [],
     "groundDelays": [],
-    "itemCount": 5
+    "itemCount": 6
   },
   "flightaware": {
-    "updated": "2026-11-24T21:04:18Z",
-    "delays_today": 15663,
-    "delays_us": 2957,
-    "cancellations_today": 683,
-    "cancellations_us": 67,
+    "updated": "2026-11-24T21:24:04Z",
+    "delays_today": 15968,
+    "delays_us": 3109,
+    "cancellations_today": 691,
+    "cancellations_us": 68,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
