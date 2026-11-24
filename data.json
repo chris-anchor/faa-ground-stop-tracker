@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24 14:18 UTC",
+  "generatedAt": "2026-11-24 14:27 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -29,7 +29,7 @@
     "groundStops": [],
     "airportClosures": [],
     "groundDelays": [],
-    "itemCount": 11
+    "itemCount": 10
   },
   "flightaware": {
     "updated": "2026-11-24T14:18:06Z",
