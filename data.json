@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24 21:32 UTC",
+  "generatedAt": "2026-11-24 21:39 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-24T21:22:17Z",
+    "updated": "2026-11-24T21:38:35Z",
     "groundStops": [
       {
         "airport": "ORD",
@@ -39,10 +39,10 @@
     "itemCount": 6
   },
   "flightaware": {
-    "updated": "2026-11-24T21:32:03Z",
+    "updated": "2026-11-24T21:39:51Z",
     "delays_today": 15968,
     "delays_us": 3109,
-    "cancellations_today": 695,
+    "cancellations_today": 699,
     "cancellations_us": 70,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
