@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-24 05:40 UTC",
+  "generatedAt": "2026-11-24 05:48 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Lifted",
+    "groundStop": "Active",
     "risk": "High"
   },
   "hi": {
@@ -25,8 +25,15 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-24T05:17:18Z",
-    "groundStops": [],
+    "updated": "2026-11-24T05:46:11Z",
+    "groundStops": [
+      {
+        "airport": "LAS",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-24T06:30:00Z"
+      }
+    ],
     "airportClosures": [
       {
         "airport": "LGA",
@@ -46,10 +53,10 @@
     "itemCount": 5
   },
   "flightaware": {
-    "updated": "2026-11-24T05:40:51Z",
+    "updated": "2026-11-24T05:48:50Z",
     "delays_today": 3127,
     "delays_us": 179,
-    "cancellations_today": 341,
+    "cancellations_today": 342,
     "cancellations_us": 22,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
