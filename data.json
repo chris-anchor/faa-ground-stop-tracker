@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24 17:29 UTC",
+  "generatedAt": "2026-11-24 17:37 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -32,10 +32,10 @@
     "itemCount": 7
   },
   "flightaware": {
-    "updated": "2026-11-24T17:29:13Z",
+    "updated": "2026-11-24T17:37:37Z",
     "delays_today": 12954,
     "delays_us": 1852,
-    "cancellations_today": 588,
+    "cancellations_today": 591,
     "cancellations_us": 61,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
