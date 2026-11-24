@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24 10:55 UTC",
+  "generatedAt": "2026-11-24 11:06 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,24 +25,17 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-24T05:17:18Z",
+    "updated": "2026-10-28T19:30:18Z",
     "groundStops": [],
-    "airportClosures": [
-      {
-        "airport": "LGA",
-        "reason": "except HEL 30MIN \rPPR 718-533-3700",
-        "start": "2026-11-24T05:14:00Z",
-        "reopen": "2026-11-24T11:00:00Z"
-      }
-    ],
+    "airportClosures": [],
     "groundDelays": [],
-    "itemCount": 4
+    "itemCount": 3
   },
   "flightaware": {
-    "updated": "2026-11-24T10:55:09Z",
-    "delays_today": 7144,
-    "delays_us": 377,
-    "cancellations_today": 443,
+    "updated": "2026-11-24T11:06:23Z",
+    "delays_today": 7459,
+    "delays_us": 398,
+    "cancellations_today": 445,
     "cancellations_us": 34,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
