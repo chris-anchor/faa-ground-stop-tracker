@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24 05:56 UTC",
+  "generatedAt": "2026-11-24 06:17 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -40,6 +40,12 @@
         "reason": "except HEL 30MIN \rPPR 718-533-3700",
         "start": "2026-11-24T05:14:00Z",
         "reopen": "2026-11-24T11:00:00Z"
+      },
+      {
+        "airport": "PNS",
+        "reason": "except HEL OPS",
+        "start": "2026-11-24T06:00:00Z",
+        "reopen": "2026-11-24T11:00:00Z"
       }
     ],
     "groundDelays": [
@@ -50,14 +56,14 @@
         "max": 90
       }
     ],
-    "itemCount": 5
+    "itemCount": 6
   },
   "flightaware": {
-    "updated": "2026-11-24T05:56:17Z",
-    "delays_today": 3127,
-    "delays_us": 179,
-    "cancellations_today": 346,
-    "cancellations_us": 24,
+    "updated": "2026-11-24T06:17:10Z",
+    "delays_today": 3287,
+    "delays_us": 187,
+    "cancellations_today": 349,
+    "cancellations_us": 25,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
