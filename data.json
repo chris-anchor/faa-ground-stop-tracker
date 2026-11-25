@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-25 02:19 UTC",
+  "generatedAt": "2026-11-25 02:30 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Active",
+    "groundStop": "Lifted",
     "risk": "High"
   },
   "hi": {
@@ -25,15 +25,8 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-25T01:51:16Z",
-    "groundStops": [
-      {
-        "airport": "SFO",
-        "reason": "Ground stop",
-        "scope": "ALL",
-        "end": "2026-11-25T03:00:00Z"
-      }
-    ],
+    "updated": "2026-11-25T02:20:25Z",
+    "groundStops": [],
     "airportClosures": [],
     "groundDelays": [
       {
@@ -41,15 +34,21 @@
         "reason": "other",
         "average": 31.0,
         "max": 87
+      },
+      {
+        "airport": "SFO",
+        "reason": "wind",
+        "average": 124.0,
+        "max": 202
       }
     ],
     "itemCount": 5
   },
   "flightaware": {
-    "updated": "2026-11-25T02:19:47Z",
-    "delays_today": 18726,
-    "delays_us": 4565,
-    "cancellations_today": 745,
+    "updated": "2026-11-25T02:30:57Z",
+    "delays_today": 18826,
+    "delays_us": 4606,
+    "cancellations_today": 755,
     "cancellations_us": 77,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
