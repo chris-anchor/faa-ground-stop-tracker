@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-26 22:55 UTC",
+  "generatedAt": "2026-11-26 23:06 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Lifted",
+    "groundStop": "Active",
     "risk": "High"
   },
   "hi": {
@@ -25,17 +25,24 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-26T12:52:22Z",
-    "groundStops": [],
+    "updated": "2026-11-26T23:04:39Z",
+    "groundStops": [
+      {
+        "airport": "LGA",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-27T00:30:00Z"
+      }
+    ],
     "airportClosures": [],
     "groundDelays": [],
-    "itemCount": 4
+    "itemCount": 5
   },
   "flightaware": {
-    "updated": "2026-11-26T22:55:12Z",
-    "delays_today": 16655,
-    "delays_us": 2053,
-    "cancellations_today": 1164,
+    "updated": "2026-11-26T23:06:11Z",
+    "delays_today": 16857,
+    "delays_us": 2119,
+    "cancellations_today": 1166,
     "cancellations_us": 428,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
