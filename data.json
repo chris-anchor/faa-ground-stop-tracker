@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-26 01:26 UTC",
+  "generatedAt": "2026-11-26 01:39 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Lifted",
+    "groundStop": "Active",
     "risk": "High"
   },
   "hi": {
@@ -25,14 +25,21 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-25T23:07:00Z",
-    "groundStops": [],
+    "updated": "2026-11-26T01:33:57Z",
+    "groundStops": [
+      {
+        "airport": "MIA",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-26T02:45:00Z"
+      }
+    ],
     "airportClosures": [],
     "groundDelays": [],
     "itemCount": 5
   },
   "flightaware": {
-    "updated": "2026-11-26T01:26:36Z",
+    "updated": "2026-11-26T01:39:24Z",
     "delays_today": 20227,
     "delays_us": 5594,
     "cancellations_today": 744,
