@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26 02:07 UTC",
+  "generatedAt": "2026-11-26 02:21 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,25 +25,25 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-26T01:33:57Z",
+    "updated": "2026-11-26T02:11:23Z",
     "groundStops": [
       {
         "airport": "MIA",
         "reason": "Ground stop",
         "scope": "ALL",
-        "end": "2026-11-26T02:45:00Z"
+        "end": "2026-11-26T03:30:00Z"
       }
     ],
     "airportClosures": [],
     "groundDelays": [],
-    "itemCount": 5
+    "itemCount": 6
   },
   "flightaware": {
-    "updated": "2026-11-26T02:07:40Z",
-    "delays_today": 20646,
-    "delays_us": 5858,
-    "cancellations_today": 747,
-    "cancellations_us": 75,
+    "updated": "2026-11-26T02:21:49Z",
+    "delays_today": 20772,
+    "delays_us": 5928,
+    "cancellations_today": 748,
+    "cancellations_us": 76,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
