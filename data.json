@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26 17:19 UTC",
+  "generatedAt": "2026-11-26 17:27 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -25,7 +25,7 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-26T17:15:00Z",
+    "updated": "2026-11-26T17:19:00Z",
     "groundStops": [],
     "airportClosures": [],
     "groundDelays": [],
