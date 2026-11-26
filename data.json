@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-26 20:00 UTC",
+  "generatedAt": "2026-11-26 20:13 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
     "delays": "10,300+ / 1,400+",
     "fuelEmergencies": "0",
-    "groundStop": "Lifted",
+    "groundStop": "Active",
     "risk": "High"
   },
   "hi": {
@@ -25,18 +25,25 @@
     "risk": "Moderate"
   },
   "nas": {
-    "updated": "2026-11-26T12:52:22Z",
-    "groundStops": [],
+    "updated": "2026-11-26T20:10:56Z",
+    "groundStops": [
+      {
+        "airport": "DCA",
+        "reason": "Ground stop",
+        "scope": "ALL",
+        "end": "2026-11-26T21:15:00Z"
+      }
+    ],
     "airportClosures": [],
     "groundDelays": [],
-    "itemCount": 4
+    "itemCount": 6
   },
   "flightaware": {
-    "updated": "2026-11-26T19:52:45Z",
-    "delays_today": 14877,
-    "delays_us": 1708,
-    "cancellations_today": 1090,
-    "cancellations_us": 417,
+    "updated": "2026-11-26T20:13:44Z",
+    "delays_today": 15097,
+    "delays_us": 1763,
+    "cancellations_today": 1102,
+    "cancellations_us": 419,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
