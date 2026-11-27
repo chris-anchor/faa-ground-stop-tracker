@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27 18:15 UTC",
+  "generatedAt": "2026-11-27 18:26 UTC",
   "us": {
     "status": "WARNING",
     "diversions": "600",
@@ -29,14 +29,14 @@
     "groundStops": [],
     "airportClosures": [],
     "groundDelays": [],
-    "itemCount": 5
+    "itemCount": 4
   },
   "flightaware": {
-    "updated": "2026-11-27T18:15:38Z",
-    "delays_today": 15717,
-    "delays_us": 1764,
-    "cancellations_today": 562,
-    "cancellations_us": 123,
+    "updated": "2026-11-27T18:26:20Z",
+    "delays_today": 16030,
+    "delays_us": 1878,
+    "cancellations_today": 567,
+    "cancellations_us": 124,
     "source_url": "https://www.flightaware.com/live/cancelled/"
   }
 }
